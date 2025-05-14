@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCOP Thạch Thất - Sản phẩm làng nghề truyền thống</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-light shadow-sm sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h1 class="h4 mb-0">OCOP THẠCH THẤT</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge bg-danger">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner py-5 text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 fade-in">
+                    <h2>Sản phẩm làng nghề truyền thống</h2>
+                    <p class="lead">Khám phá tinh hoa văn hóa Thạch Thất qua các sản phẩm thủ công mỹ nghệ độc đáo</p>
+                    <a href="#products" class="btn btn-light btn-lg">Khám phá ngay</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Sản phẩm nổi bật</h2>
+            
+            <!-- Filter Buttons -->
+            <div class="text-center mb-4">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-outline-primary active">Tất cả</button>
+                    <button type="button" class="btn btn-outline-primary">Đồ gỗ</button>
+                    <button type="button" class="btn btn-outline-primary">Thủ công</button>
+                    <button type="button" class="btn btn-outline-primary">Mỹ nghệ</button>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Rối nước -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/roi-nuoc-lang-ra.webp" class="card-img-top" alt="Rối nước làng Rạ">
+                        <div class="card-body">
+                            <h5 class="card-title">Rối nước làng Rạ</h5>
+                            <p class="card-text">Nghệ thuật múa rối nước truyền thống độc đáo của làng Rạ</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Chuồn chuồn tre -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/lang-chuon-chuon-tre-thach-xa.webp" class="card-img-top" alt="Chuồn chuồn tre Thạch Xá">
+                        <div class="card-body">
+                            <h5 class="card-title">Chuồn chuồn tre Thạch Xá</h5>
+                            <p class="card-text">Sản phẩm thủ công mỹ nghệ độc đáo từ làng nghề Thạch Xá</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Đồ gỗ -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/do-go-canh-nau.jpg" class="card-img-top" alt="Đồ gỗ Cảnh Nậu">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ gỗ Cảnh Nậu</h5>
+                            <p class="card-text">Sản phẩm đồ gỗ mỹ nghệ tinh xảo từ làng nghề Cảnh Nậu</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Quạt giấy -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/quat-giay-chang-son.jpg" class="card-img-top" alt="Quạt giấy Chàng Sơn">
+                        <div class="card-body">
+                            <h5 class="card-title">Quạt giấy Chàng Sơn</h5>
+                            <p class="card-text">Quạt giấy thủ công truyền thống từ làng nghề Chàng Sơn</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Placeholder Products -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Tranh thêu truyền thống">
+                        <div class="card-body">
+                            <h5 class="card-title">Tranh thêu truyền thống</h5>
+                            <p class="card-text">Tranh thêu thủ công với họa tiết dân gian độc đáo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ gốm sứ">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ gốm sứ thủ công</h5>
+                            <p class="card-text">Sản phẩm gốm sứ được làm thủ công với hoa văn tinh xảo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ mây tre đan">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ mây tre đan</h5>
+                            <p class="card-text">Sản phẩm mây tre đan thủ công với kiểu dáng hiện đại</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ đồng mỹ nghệ">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ đồng mỹ nghệ</h5>
+                            <p class="card-text">Sản phẩm đồng mỹ nghệ với hoa văn truyền thống</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ sơn mài">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ sơn mài truyền thống</h5>
+                            <p class="card-text">Sản phẩm sơn mài với kỹ thuật thủ công độc đáo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ thêu ren">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ thêu ren thủ công</h5>
+                            <p class="card-text">Sản phẩm thêu ren với họa tiết tinh xảo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ gỗ khảm trai">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ gỗ khảm trai</h5>
+                            <p class="card-text">Sản phẩm gỗ khảm trai với hoa văn độc đáo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ gốm sứ Bát Tràng">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ gốm sứ Bát Tràng</h5>
+                            <p class="card-text">Sản phẩm gốm sứ với men màu độc đáo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ thủ công mỹ nghệ">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ thủ công mỹ nghệ</h5>
+                            <p class="card-text">Sản phẩm thủ công với thiết kế hiện đại</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ gỗ mỹ nghệ">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ gỗ mỹ nghệ</h5>
+                            <p class="card-text">Sản phẩm gỗ với hoa văn tinh xảo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ thêu tay">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ thêu tay thủ công</h5>
+                            <p class="card-text">Sản phẩm thêu tay với họa tiết độc đáo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ gốm sứ thủ công">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ gốm sứ thủ công</h5>
+                            <p class="card-text">Sản phẩm gốm sứ với men màu độc đáo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ mây tre đan">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ mây tre đan thủ công</h5>
+                            <p class="card-text">Sản phẩm mây tre đan với kiểu dáng hiện đại</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ gỗ mỹ nghệ">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ gỗ mỹ nghệ thủ công</h5>
+                            <p class="card-text">Sản phẩm gỗ với hoa văn tinh xảo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ thêu ren">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ thêu ren thủ công</h5>
+                            <p class="card-text">Sản phẩm thêu ren với họa tiết độc đáo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ gốm sứ">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ gốm sứ thủ công</h5>
+                            <p class="card-text">Sản phẩm gốm sứ với men màu độc đáo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ mây tre đan">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ mây tre đan thủ công</h5>
+                            <p class="card-text">Sản phẩm mây tre đan với kiểu dáng hiện đại</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ gỗ mỹ nghệ">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ gỗ mỹ nghệ thủ công</h5>
+                            <p class="card-text">Sản phẩm gỗ với hoa văn tinh xảo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ thêu ren">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ thêu ren thủ công</h5>
+                            <p class="card-text">Sản phẩm thêu ren với họa tiết độc đáo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Đồ gốm sứ">
+                        <div class="card-body">
+                            <h5 class="card-title">Đồ gốm sứ thủ công</h5>
+                            <p class="card-text">Sản phẩm gốm sứ với men màu độc đáo</p>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <nav aria-label="Page navigation" class="mt-5">
+                <ul class="pagination" id="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous" id="prevPage">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <!-- Page numbers will be generated by JavaScript -->
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next" id="nextPage">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Dịch vụ Du lịch -->
+    <section id="tours" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Tua Du Lịch Thạch Thất</h2>
+
+            <!-- Carousel Tour Highlights -->
+            <div id="tourCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner rounded shadow">
+                    <div class="carousel-item active">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img src="assets/images/preloaders.svg" class="img-fluid h-100 object-fit-cover" alt="Tour làng nghề">
+                            </div>
+                            <div class="col-md-6 bg-white p-4">
+                                <h3 class="mb-3">Tour Làng Nghề Truyền Thống</h3>
+                                <p class="lead">Khám phá vẻ đẹp văn hóa Thạch Thất</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Thăm quan làng nghề rối nước</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Trải nghiệm làm đồ thủ công</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Thưởng thức ẩm thực địa phương</li>
+                                </ul>
+                                <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">Đặt tour ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img src="assets/images/preloaders.svg" class="img-fluid h-100 object-fit-cover" alt="Tour trải nghiệm">
+                            </div>
+                            <div class="col-md-6 bg-white p-4">
+                                <h3 class="mb-3">Tour Trải Nghiệm Làm Nghề</h3>
+                                <p class="lead">Trở thành nghệ nhân trong một ngày</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Học làm đồ gỗ mỹ nghệ</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Thực hành làm rối nước</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Nhận chứng chỉ nghề</li>
+                                </ul>
+                                <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">Đặt tour ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img src="assets/images/preloaders.svg" class="img-fluid h-100 object-fit-cover" alt="Tour ẩm thực">
+                            </div>
+                            <div class="col-md-6 bg-white p-4">
+                                <h3 class="mb-3">Tour Văn Hóa Ẩm Thực</h3>
+                                <p class="lead">Hành trình khám phá ẩm thực địa phương</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Nếm thử đặc sản Thạch Thất</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Học nấu món ăn truyền thống</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Mua sắm đặc sản về làm quà</li>
+                                </ul>
+                                <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">Đặt tour ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#tourCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#tourCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+            <!-- Carousel Địa Điểm Nổi Bật -->
+            <h3 class="text-center mb-4">Địa Điểm Nổi Bật</h3>
+            <div id="locationCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <img src="assets/images/preloaders.svg" class="card-img-top" alt="Làng Rối nước">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Làng Rối nước</h5>
+                                        <p class="card-text">Nghệ thuật múa rối nước truyền thống độc đáo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <img src="assets/images/preloaders.svg" class="card-img-top" alt="Làng Chuồn chuồn tre">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Làng Chuồn chuồn tre</h5>
+                                        <p class="card-text">Nghề làm chuồn chuồn tre thủ công</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <img src="assets/images/preloaders.svg" class="card-img-top" alt="Làng Đồ gỗ">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Làng Đồ gỗ</h5>
+                                        <p class="card-text">Nghề mộc truyền thống với kỹ thuật tinh xảo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <img src="assets/images/preloaders.svg" class="card-img-top" alt="Làng Quạt giấy">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Làng Quạt giấy</h5>
+                                        <p class="card-text">Nghề làm quạt giấy thủ công truyền thống</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <img src="assets/images/preloaders.svg" class="card-img-top" alt="Làng Mây tre đan">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Làng Mây tre đan</h5>
+                                        <p class="card-text">Nghề đan lát mây tre truyền thống</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <img src="assets/images/preloaders.svg" class="card-img-top" alt="Làng Thêu ren">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Làng Thêu ren</h5>
+                                        <p class="card-text">Nghề thêu ren thủ công tinh xảo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#locationCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#locationCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+            <!-- Danh sách tour -->
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Tour làng nghề">
+                        <div class="card-body">
+                            <h5 class="card-title">Tour Làng Nghề Truyền Thống</h5>
+                            <p class="card-text">Khám phá các làng nghề nổi tiếng của Thạch Thất</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-clock me-2"></i>Thời gian: 1 ngày</li>
+                                <li><i class="fas fa-map-marker-alt me-2"></i>Điểm đến: Các làng nghề</li>
+                                <li><i class="fas fa-users me-2"></i>Số người: 10-20 người</li>
+                                <li><i class="fas fa-utensils me-2"></i>Bao gồm: Ăn trưa, xe đưa đón</li>
+                            </ul>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">Đặt tour</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Tour trải nghiệm">
+                        <div class="card-body">
+                            <h5 class="card-title">Tour Trải Nghiệm Làm Nghề</h5>
+                            <p class="card-text">Trải nghiệm thực tế các nghề thủ công truyền thống</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-clock me-2"></i>Thời gian: 2-3 giờ</li>
+                                <li><i class="fas fa-map-marker-alt me-2"></i>Điểm đến: Xưởng thủ công</li>
+                                <li><i class="fas fa-users me-2"></i>Số người: 5-15 người</li>
+                                <li><i class="fas fa-tools me-2"></i>Bao gồm: Nguyên liệu, hướng dẫn</li>
+                            </ul>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">Đặt tour</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="assets/images/preloaders.svg" class="card-img-top" alt="Tour văn hóa">
+                        <div class="card-body">
+                            <h5 class="card-title">Tour Văn Hóa Ẩm Thực</h5>
+                            <p class="card-text">Khám phá ẩm thực đặc sản Thạch Thất</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-clock me-2"></i>Thời gian: 1 ngày</li>
+                                <li><i class="fas fa-map-marker-alt me-2"></i>Điểm đến: Nhà hàng đặc sản</li>
+                                <li><i class="fas fa-users me-2"></i>Số người: 8-20 người</li>
+                                <li><i class="fas fa-utensils me-2"></i>Bao gồm: 3 bữa ăn, xe đưa đón</li>
+                            </ul>
+                            <p class="text-primary fw-bold">Liên hệ để biết giá</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">Đặt tour</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lịch trình mẫu -->
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h4 class="text-center mb-4">Lịch trình mẫu - Tour Làng Nghề Truyền Thống</h4>
+                            <div class="timeline">
+                                <div class="d-flex mb-4">
+                                    <div class="flex-shrink-0">
+                                        <i class="fas fa-clock text-primary fa-2x"></i>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5>08:00 - Khởi hành</h5>
+                                        <p class="text-muted">Đón khách tại điểm hẹn</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-4">
+                                    <div class="flex-shrink-0">
+                                        <i class="fas fa-map-marker-alt text-primary fa-2x"></i>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5>09:00 - Làng nghề Rối nước</h5>
+                                        <p class="text-muted">Thưởng thức biểu diễn rối nước</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-4">
+                                    <div class="flex-shrink-0">
+                                        <i class="fas fa-utensils text-primary fa-2x"></i>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5>12:00 - Ăn trưa</h5>
+                                        <p class="text-muted">Thưởng thức đặc sản địa phương</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <i class="fas fa-shopping-bag text-primary fa-2x"></i>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5>14:00 - Mua sắm</h5>
+                                        <p class="text-muted">Mua sắm sản phẩm thủ công</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Đặt Tour -->
+    <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bookingModalLabel">Đặt Tour Du Lịch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="bookingForm">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="fullName" class="form-label">Họ và tên</label>
+                                <input type="text" class="form-control" id="fullName" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label">Số điện thoại</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="tourType" class="form-label">Loại tour</label>
+                                <select class="form-select" id="tourType" required>
+                                    <option value="">Chọn loại tour</option>
+                                    <option value="lang-nghe">Tour Làng Nghề Truyền Thống</option>
+                                    <option value="trai-nghiem">Tour Trải Nghiệm Làm Nghề</option>
+                                    <option value="am-thuc">Tour Văn Hóa Ẩm Thực</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="date" class="form-label">Ngày đi</label>
+                                <input type="date" class="form-control" id="date" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="guests" class="form-label">Số người</label>
+                                <input type="number" class="form-control" id="guests" min="1" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="specialRequests" class="form-label">Yêu cầu đặc biệt</label>
+                                <textarea class="form-control" id="specialRequests" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="submit" form="bookingForm" class="btn btn-primary">Đặt tour</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tùy chỉnh sản phẩm -->
+    <section id="customize" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Tùy Chỉnh Sản Phẩm</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Khắc Tên & Logo</h5>
+                            <p class="card-text">Tùy chỉnh sản phẩm với tên hoặc logo của bạn</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check me-2 text-success"></i>Khắc laser chính xác</li>
+                                <li><i class="fas fa-check me-2 text-success"></i>Nhiều font chữ đẹp</li>
+                                <li><i class="fas fa-check me-2 text-success"></i>Hỗ trợ file vector</li>
+                            </ul>
+                            <button class="btn btn-primary">Đặt hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Tùy Chỉnh Màu Sắc</h5>
+                            <p class="card-text">Chọn màu sắc theo ý thích của bạn</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check me-2 text-success"></i>Bảng màu phong phú</li>
+                                <li><i class="fas fa-check me-2 text-success"></i>Màu sơn cao cấp</li>
+                                <li><i class="fas fa-check me-2 text-success"></i>Độ bền màu cao</li>
+                            </ul>
+                            <button class="btn btn-primary">Đặt hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Thiết Kế Riêng</h5>
+                            <p class="card-text">Tạo mẫu sản phẩm theo ý tưởng của bạn</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check me-2 text-success"></i>Tư vấn thiết kế</li>
+                                <li><i class="fas fa-check me-2 text-success"></i>Chỉnh sửa không giới hạn</li>
+                                <li><i class="fas fa-check me-2 text-success"></i>Bảo mật bản quyền</li>
+                            </ul>
+                            <button class="btn btn-primary">Đặt hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Đóng Gói Quà Tặng</h5>
+                            <p class="card-text">Dịch vụ đóng gói quà tặng cao cấp</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check me-2 text-success"></i>Hộp quà sang trọng</li>
+                                <li><i class="fas fa-check me-2 text-success"></i>Thiệp tùy chỉnh</li>
+                                <li><i class="fas fa-check me-2 text-success"></i>Giao hàng tận nơi</li>
+                            </ul>
+                            <button class="btn btn-primary">Đặt hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h3>Đăng ký nhận thông tin</h3>
+                    <p class="text-muted">Nhận thông tin về sản phẩm mới và khuyến mãi đặc biệt</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Email của bạn">
+                        <button class="btn btn-primary" type="button">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>OCOP THẠCH THẤT</h5>
+                    <p>Kết nối và phát triển sản phẩm làng nghề truyền thống</p>
+                    <p class="mt-3">
+                        <small>Dự án được thực hiện bởi nhóm 3 - K4728 CNTT1 Thạch Thất</small>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Liên hệ</h5>
+                    <p>
+                        <i class="fas fa-phone me-2"></i> 0123 456 789<br>
+                        <i class="fas fa-envelope me-2"></i> info@ocopthachthat.vn<br>
+                        <i class="fas fa-map-marker-alt me-2"></i> Thạch Thất, Hà Nội
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Theo dõi chúng tôi</h5>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <h6 class="mb-3">Tác giả</h6>
+                    <p class="mb-1">
+                        <i class="fas fa-user me-2"></i> Phạm Thị Thu Thủy
+                    </p>
+                    <p class="mb-1">
+                        <i class="fas fa-user me-2"></i> Hoàng Chiều Nguyễn Tuấn
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">&copy; 2024 OCOP Thạch Thất. All rights reserved.</p>
+                    <p class="mt-2">
+                        <small>Được phát triển bởi nhóm 3 - K4728 CNTT1 Thạch Thất</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Đợi DOM load xong
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add smooth scrolling
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Add animation on scroll
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.card').forEach(card => {
+                observer.observe(card);
+            });
+
+            // Tour Carousel Auto Slide
+            const tourCarousel = new bootstrap.Carousel(document.getElementById('tourCarousel'), {
+                interval: 5000, // Chuyển slide mỗi 5 giây
+                wrap: true,     // Quay vòng
+                keyboard: true, // Cho phép điều khiển bằng bàn phím
+                pause: 'hover'  // Tạm dừng khi hover
+            });
+
+            // Location Carousel Auto Slide
+            const locationCarousel = new bootstrap.Carousel(document.getElementById('locationCarousel'), {
+                interval: 4000, // Chuyển slide mỗi 4 giây
+                wrap: true,
+                keyboard: true,
+                pause: 'hover'
+            });
+
+            // Thêm hiệu ứng hover cho các card trong carousel
+            document.querySelectorAll('.carousel .card').forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-10px)';
+                    this.style.transition = 'transform 0.3s ease';
+                });
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+
+            // Thêm hiệu ứng cho nút đặt tour
+            document.querySelectorAll('.btn-primary').forEach(button => {
+                button.addEventListener('mouseenter', function() {
+                    this.style.transform = 'scale(1.05)';
+                    this.style.transition = 'transform 0.3s ease';
+                });
+                button.addEventListener('mouseleave', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+
+            // Thêm hiệu ứng cho carousel indicators
+            const indicators = document.querySelectorAll('.carousel-indicators button');
+            indicators.forEach(indicator => {
+                indicator.addEventListener('click', function() {
+                    indicators.forEach(i => i.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+
+            // Thêm hiệu ứng cho carousel controls
+            const controls = document.querySelectorAll('.carousel-control-prev, .carousel-control-next');
+            controls.forEach(control => {
+                control.addEventListener('mouseenter', function() {
+                    this.style.opacity = '1';
+                    this.style.transition = 'opacity 0.3s ease';
+                });
+                control.addEventListener('mouseleave', function() {
+                    this.style.opacity = '0.5';
+                });
+            });
+
+            // Pagination Logic
+            const itemsPerPage = 20;
+            const productContainers = document.querySelectorAll('.col-md-4');
+            const totalPages = Math.ceil(productContainers.length / itemsPerPage);
+            let currentPage = 1;
+
+            function showPage(page) {
+                const start = (page - 1) * itemsPerPage;
+                const end = start + itemsPerPage;
+
+                productContainers.forEach((container, index) => {
+                    if (index >= start && index < end) {
+                        container.style.display = 'block';
+                    } else {
+                        container.style.display = 'none';
+                    }
+                });
+
+                // Update pagination buttons
+                updatePagination();
+            }
+
+            function updatePagination() {
+                const pagination = document.getElementById('pagination');
+                const prevPage = document.getElementById('prevPage');
+                const nextPage = document.getElementById('nextPage');
+
+                // Clear existing page numbers
+                const pageNumbers = pagination.querySelectorAll('.page-item:not(:first-child):not(:last-child)');
+                pageNumbers.forEach(item => item.remove());
+
+                // Add page numbers
+                for (let i = 1; i <= totalPages; i++) {
+                    const li = document.createElement('li');
+                    li.className = `page-item ${i === currentPage ? 'active' : ''}`;
+                    li.innerHTML = `<a class="page-link" href="#" data-page="${i}">${i}</a>`;
+                    pagination.insertBefore(li, nextPage.parentElement);
+                }
+
+                // Update prev/next buttons
+                prevPage.parentElement.className = `page-item ${currentPage === 1 ? 'disabled' : ''}`;
+                nextPage.parentElement.className = `page-item ${currentPage === totalPages ? 'disabled' : ''}`;
+            }
+
+            // Event listeners for pagination
+            document.getElementById('pagination').addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = e.target.closest('a');
+                
+                if (!target) return;
+
+                if (target.id === 'prevPage' && currentPage > 1) {
+                    currentPage--;
+                    showPage(currentPage);
+                } else if (target.id === 'nextPage' && currentPage < totalPages) {
+                    currentPage++;
+                    showPage(currentPage);
+                } else if (target.dataset.page) {
+                    currentPage = parseInt(target.dataset.page);
+                    showPage(currentPage);
+                }
+            });
+
+            // Initialize first page
+            showPage(1);
+        });
+    </script>
+</body>
+</html>
